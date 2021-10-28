@@ -1,8 +1,16 @@
+import react, { Fragment } from 'react';
+
+import Navigation from './components/Header/Navigation';
+import Introduction from './components/Intro/Introduction';
+import FoodList from './components/Main/FoodList';
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <Fragment>
+      <Navigation />
+      <Introduction />
+      <FoodList />
+    </Fragment>
   );
 }
 

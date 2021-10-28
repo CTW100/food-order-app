@@ -1,0 +1,19 @@
+.main-screen {
+  margin: auto;
+  width: 66%;
+}
+
+.order-list {
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.order-list div p:last-child {
+  color: rgb(218, 129, 47);
+  font-weight: bold;
+  font-size: 20px;
+}
