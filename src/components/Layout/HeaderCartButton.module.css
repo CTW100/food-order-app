@@ -36,8 +36,8 @@
   background-color: #92320c;
 }
 
-.bumb {
-  animation: bump 300ms ease-in-out;
+.bump {
+  animation: bump 300ms ease-out;
 }
 
 @keyframes bump {
