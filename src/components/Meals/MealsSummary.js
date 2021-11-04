@@ -1,9 +1,8 @@
-import Card from '../UI/Card';
-import classes from './Introduction.module.css';
+import classes from './MealsSummary.module.css';
 
-const Introduction = () => {
+const MealsSummary = () => {
   return (
-    <Card className={classes.intro}>
+    <section className={classes.summary}>
       <h2>Delicious Food, Delivered To You</h2>
       <p>
         Choose your favorite meal from our broad selection of available meals
@@ -11,10 +10,10 @@ const Introduction = () => {
       </p>
       <p>
         All our meals are cooked with high-quality ingredients, just-in-time and
-        of course by experienced chefs!
+        of course by experienced chef!
       </p>
-    </Card>
+    </section>
   );
 };
 
-export default Introduction;
+export default MealsSummary;
